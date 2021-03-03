@@ -1,0 +1,12 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    
+  }
+.card{
+  background-color:darkgray;
+  display:flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+  
+}
