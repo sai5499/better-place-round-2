@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-//import ReactDOM from "react-dom";
 import Post from "./post/post";
 import "./LandingPage.css";
 import axios from "axios";
@@ -104,8 +103,6 @@ function LandingPage() {
         </button>
       </div>
       <div className="details">
-        
-        {/* <p>{data}data is here</p> */}
 
         {OriginalData.map((details, idx) => (
           <Post
@@ -133,10 +130,4 @@ function LandingPage() {
 
 export default LandingPage;
 
-/* Nationality(nat)
-Australia(AU)
-Brazil(BR)
-Canada(CA)
-France (FR)
-Great Britain(GB)
-USA (US) */
+
